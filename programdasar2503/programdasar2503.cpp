@@ -7,7 +7,7 @@ void input()
 {
 	cout << "Bilangan pertama = ";
 	cin >> a;
-
+	 
 	
    
 }
