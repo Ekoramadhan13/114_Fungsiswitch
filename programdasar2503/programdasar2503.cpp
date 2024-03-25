@@ -58,13 +58,22 @@ int penjumlahan(int bil_1, int bil_2)
 				break;
 			case 3:
 				input();
-				cout << "Hasil penjumlahan " << penjumlahan(a, b) << endl;
+				cout << "Hasil perkalian " << penjumlahan(a, b) << endl;
 				system("pause");
 				break;
 			case 4:
 				input();
-				cout << "Hasil penjumlahan " << penjumlahan(a, b) << endl;
+				cout << "pembagian " << penjumlahan(a, b) << endl;
 				system("pause");
 				break;
-	
+			case 5:
+				break;
 
+			default:
+				cout << "Menu tidak tersedia silihkan pilih lagi !!!" << endl;
+				break;
+			}
+
+		} while (pilihan != 5);
+
+    }
