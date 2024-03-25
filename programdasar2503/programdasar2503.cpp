@@ -51,6 +51,12 @@ int penjumlahan(int bil_1, int bil_2)
 				cout << "Hasil penjumlahan " << penjumlahan(a, b) << endl;
 				system("pause");
 				break;
+			case 2:
+				input();
+				cout << "Hasil pengurangan " << penjumlahan(a, b) << endl;
+				system("pause");
+				break;
+
 
 	
 
