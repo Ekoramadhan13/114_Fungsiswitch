@@ -42,7 +42,7 @@ int penjumlahan(int bil_1, int bil_2)
 			cout << "4.pemmbagian" << endl;
 			cout << "5.keluar" << endl;
 			cout << "Masukan menu yang ingin dipilih (1/2/3/4/5): ";
-			cin << pilihan;
+			cin >> pilihan;
 
 			switch (pilihan)
 			{
